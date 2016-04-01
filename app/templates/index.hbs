@@ -1,3 +1,5 @@
+<!-- html that is displayed on the pg, using hbs to call new events/functionalities -->
+
 <h2>Homepage</h2>
 
 <ul>
@@ -5,3 +7,6 @@
     {{question-tile question=question}}
   {{/each}}
 </ul>
+
+<!-- add a new quetion -->
+{{new-question save2="save3" question=model}}
