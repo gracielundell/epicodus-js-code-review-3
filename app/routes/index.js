@@ -4,7 +4,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    // display question and author name
+    // display questions and author names
     return this.store.findAll('question');
   },
     actions: {
@@ -14,9 +14,15 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     },
-    // update(question, params) {
-    //   question.save();
-    //   this.transitionTo('index');
-    // }
+    edit(question, params) {
+      // edit question functionality, leave alone if not edited
+      Object.keys(params).forEach(function(key) {
+        if (params[key] !== undefined) {
+          question.set(key, params[key]);
+        }
+      });
+      question.save();
+      this.transitionTo('index');
+    },
   }
 });

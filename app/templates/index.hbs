@@ -3,8 +3,9 @@
 <h2>Homepage</h2>
 
 <ul>
+  <!-- list questions -->
   {{#each model as |question|}}
-    {{question-tile question=question}}
+    {{question-tile question=question edit="edit"}}
   {{/each}}
 </ul>
 

@@ -1,13 +1,13 @@
-<!-- {{#liquid-if updateQuestionForm}}
+{{#liquid-if editQuestionForm}}
   <form>
     <label for="title">Question:</label><br>
     {{input value=title id="title" placeholder=question.title}}<br>
-    <label for="author">Question:</label><br>
+    <label for="author">Author:</label><br>
     {{input value=author id="author" placeholder=question.author}}<br>
-    <label for="notes">Question:</label><br>
+    <label for="notes">Notes:</label><br>
     {{textarea value=notes id="notes" placeholder=question.notes}}<br>
-    <button {{action 'update' question}}>Save</button>
+    <button {{action 'edit' question}}>Save</button>
   </form>
 {{else}}
-  <button {{action 'UpdateQuestionForm'}}>Update</button>
-{{/liquid-if}} -->
+  <button {{action 'editQuestionForm'}}>Edit Question</button>
+{{/liquid-if}}
