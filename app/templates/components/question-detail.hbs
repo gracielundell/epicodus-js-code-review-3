@@ -6,6 +6,12 @@ Further Considerations: <br>
 
 
 <br><br>
-add edit ability <br>
+<!-- comments -->
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
+
 add comments from users <br>
 allow users to edit comments

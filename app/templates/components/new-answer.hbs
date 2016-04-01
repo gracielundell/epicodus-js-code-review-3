@@ -1,0 +1,12 @@
+{{#liquid-if addNewAnswer}}
+  <h3>If You think you have The Answer</h3>
+  <form>
+    <label for="user">Answer By</label><br>
+    {{input value=user id="user"}}<br>
+    <label for="answer">Answer</label><br>
+    {{textarea value=answer id="answer"}}<br>
+    <button {{action 'saveAnswer1' question}}>Save Answer</button>
+  </form>
+{{else}}
+  <button {{action 'answerFormShow'}}>Answer the Question</button>
+{{/liquid-if}}

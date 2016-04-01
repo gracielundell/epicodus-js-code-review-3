@@ -12,9 +12,6 @@ export default Ember.Component.extend({
         author: this.get('author'),
         notes: this.get('notes')
       };
-      this.set('title', "");
-      this.set('author', "");
-      this.set('notes', "");
       this.set('editQuestionForm', false);
       this.sendAction('edit', question, params);
     }
