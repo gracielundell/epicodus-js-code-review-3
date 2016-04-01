@@ -1,3 +1,7 @@
 <!-- what will be displayed as the link on index to full question posts -->
 
-<li>{{question.author}} asks "{{question.title}}"</li>
+<li>{{#link-to 'question' question.id}}
+    {{question.author}} asks "{{question.title}}"
+    {{update-question question=question update="update"}}
+  {{/link-to}}
+</li>

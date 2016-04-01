@@ -7,12 +7,16 @@ export default Ember.Route.extend({
     // display question and author name
     return this.store.findAll('question');
   },
-  actions: {
-  save3(params) {
-    // save new question
-    var newQuestion = this.store.createRecord('question', params);
-    newQuestion.save();
-    this.transitionTo('index');
-    }
+    actions: {
+    save3(params) {
+      // save new question
+      var newQuestion = this.store.createRecord('question', params);
+      newQuestion.save();
+      this.transitionTo('index');
+    },
+    // update(question, params) {
+    //   question.save();
+    //   this.transitionTo('index');
+    // }
   }
 });

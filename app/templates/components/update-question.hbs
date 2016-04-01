@@ -1,0 +1,13 @@
+<!-- {{#liquid-if updateQuestionForm}}
+  <form>
+    <label for="title">Question:</label><br>
+    {{input value=title id="title" placeholder=question.title}}<br>
+    <label for="author">Question:</label><br>
+    {{input value=author id="author" placeholder=question.author}}<br>
+    <label for="notes">Question:</label><br>
+    {{textarea value=notes id="notes" placeholder=question.notes}}<br>
+    <button {{action 'update' question}}>Save</button>
+  </form>
+{{else}}
+  <button {{action 'UpdateQuestionForm'}}>Update</button>
+{{/liquid-if}} -->
