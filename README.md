@@ -1,9 +1,20 @@
-# Question-answer
+# Epicodus Code Review -- Week 3
+Ember.js Exercise for Epicodus, 04.01.2016
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### By Gracie Lundell
 
-## Prerequisites
+## description
+A question-and-answer site that allows users to post questions to be answered and answer quetions posted by other users. The site uses Ember.js and complies to the following requirements:
+
+- Questions should have the content of the question itself, an author and additional notes.
+- Answers should have the content of the answer and the author.
+- Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+- List all questions on the homepage, with only the question and the name of the author showing.
+- Users should be able to click on a question to view additional information.
+- Allow users to add and edit questions.
+- Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+
+## Setup
 
 You will need the following things properly installed on your computer.
 
@@ -13,41 +24,16 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+To serve the project, in the terminal run *$ git clone https://github.com/gracielundell/epicodus-js-w2-code-review*. Then, open it with the text editor of your choice. Run *$ npm install* and *$ boser install* to load the required npm dependencies. Once these are installed, run *$ ember serve* to start the server, and view the project in your browser by clicking[here](http://localhost:4200).
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+## Technologies
+- Ember.js
+- Handlebars
+- JavaScript
+- Node.js and Node Package Manager dependencies
+- Bower packages
+- CSS with Sass
+- Ember's Liquid firebase
 
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+## Legal
+Copywrite Gracie Lundell © 2016 This software is licensed under the MIT license.
