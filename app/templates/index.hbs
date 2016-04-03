@@ -1,14 +1,16 @@
 <!-- html that is displayed on the pg, using hbs to call new events/functionalities -->
+<div class="homePage">
+  <h2>Posted Queries</h2>
 
-<h2>Homepage</h2>
-
-<ul>
-  <!-- list questions -->
-  {{#each model as |question|}}
+  <ul class="indexQuestions">
+    <!-- list questions -->
+    {{#each model as |question|}}
     {{question-tile question=question edit="edit"}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
 
-<h2>Post a New Question</h2>
-<!-- add a new quetion -->
-{{new-question save2="save3" question=model}}
+  <div class="newQuestion">
+    <!-- add a new quetion -->
+    {{new-question save2="save3" question=model}}
+  </div>
+</div>
