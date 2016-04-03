@@ -140,6 +140,23 @@ ul li {
   margin: 0px;
 }
 
-#ember498 {
-  margin-left: 8.5%;
+.answerBtn {
+  text-align: center;
+}
+
+.answerBtn button {
+  /*margin-left: 8.5%;*/
+  font-size: 20px;
+  padding: 20px 60px;
+  color: white;
+  background-image: url("spaceship.jpg");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  margin: 20px;
+}
+
+.answerBtn button:hover {
+  outline: 2px solid DarkTurquoise;
+  color: DarkTurquoise;
 }
