@@ -38,6 +38,9 @@ input {
   height: 20px;
 }
 
+a:hover{
+  color: DarkTurquoise
+}
 
 /********** NAV **********/
 nav {
@@ -119,4 +122,24 @@ ul li {
 
 
 
-/********** HOMEPAGE **********/
+/********** QUESTION DETAIL **********/
+.questionDetail {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.questionDetail ul li {
+  width: 100%;
+}
+
+.questionDetail h3 {
+  margin: 0px;
+}
+
+.questionDetail h4 {
+  margin: 0px;
+}
+
+#ember498 {
+  margin-left: 8.5%;
+}
