@@ -24,7 +24,6 @@ button {
   }
 }
 
-
 textarea {
   width: 300px;
   height: 100px;
@@ -42,9 +41,11 @@ a:hover{
   color: DarkTurquoise
 }
 
+
+
 /********** NAV **********/
 nav {
-  background-image: url("../app/styles/flight.jpg");
+  background-image: url("https://static.pexels.com/photos/2159/flight-sky-earth-space.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +105,7 @@ ul li {
     font-size: 20px;
     padding: 20px 60px;
     color: white;
-    background-image: url("spaceman.jpg");
+    background-image: url("https://static.pexels.com/photos/2156/sky-earth-space-working.jpg");
     background-position: center;
     background-size: cover;
     border: none;
@@ -138,7 +139,7 @@ ul li {
     font-size: 20px;
     padding: 20px 60px;
     color: white;
-    background-image: url("spaceship.jpg");
+    background-image: url("https://static.pexels.com/photos/2166/flight-sky-earth-space.jpg");
     background-position: center;
     background-size: cover;
     border: none;
