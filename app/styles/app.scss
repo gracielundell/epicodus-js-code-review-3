@@ -16,14 +16,14 @@ button {
   background: white;
   letter-spacing: 3px;
   margin: 0 10px;
+  &:hover {
+    border: 2px solid DarkTurquoise;
+    background: DarkTurquoise;
+    color: white;
+    cursor: pointer;
+  }
 }
 
-button:hover {
-  border: 2px solid DarkTurquoise;
-  background: DarkTurquoise;
-  color: white;
-  cursor: pointer;
-}
 
 textarea {
   width: 300px;
@@ -44,7 +44,7 @@ a:hover{
 
 /********** NAV **********/
 nav {
-  background-image: url("flight.jpg");
+  background-image: url("../app/styles/flight.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,10 +60,9 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 20px;
-}
-
-.homeLink a:hover {
-  letter-spacing: 7px;
+  &:hover {
+    letter-spacing: 7px;
+  }
 }
 
 .title h1 {
@@ -86,11 +85,10 @@ h2 {
 
 .indexQuestions{
   padding-left: 10%;
-}
-
-.indexQuestions a {
-  font-size: 20px;
-  text-decoration: none;
+  a {
+    font-size: 20px;
+    text-decoration: none;
+  }
 }
 
 ul li {
@@ -102,23 +100,22 @@ ul li {
 
 .newQuestion {
   text-align: center;
+  button {
+    font-size: 20px;
+    padding: 20px 60px;
+    color: white;
+    background-image: url("spaceman.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin: 20px;
+  }
+  &:hover {
+    outline: 2px solid DarkTurquoise;
+    color: DarkTurquoise;
+  }
 }
 
-.newQuestion button {
-  font-size: 20px;
-  padding: 20px 60px;
-  color: white;
-  background-image: url("spaceman.jpg");
-  background-position: center;
-  background-size: cover;
-  border: none;
-  margin: 20px;
-}
-
-.newQuestion button:hover {
-  outline: 2px solid DarkTurquoise;
-  color: DarkTurquoise;
-}
 
 
 
@@ -126,37 +123,29 @@ ul li {
 .questionDetail {
   width: 80%;
   margin: 0 auto;
-}
-
-.questionDetail ul li {
-  width: 100%;
-}
-
-.questionDetail h3 {
-  margin: 0px;
-}
-
-.questionDetail h4 {
-  margin: 0px;
+  ul li {
+    width: 100%;
+  }
+  h3, h4 {
+    margin: 0px;
+  }
 }
 
 .answerBtn {
   text-align: center;
-}
-
-.answerBtn button {
-  /*margin-left: 8.5%;*/
-  font-size: 20px;
-  padding: 20px 60px;
-  color: white;
-  background-image: url("spaceship.jpg");
-  background-position: center;
-  background-size: cover;
-  border: none;
-  margin: 20px;
-}
-
-.answerBtn button:hover {
-  outline: 2px solid DarkTurquoise;
-  color: DarkTurquoise;
+  button {
+    /*margin-left: 8.5%;*/
+    font-size: 20px;
+    padding: 20px 60px;
+    color: white;
+    background-image: url("spaceship.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin: 20px;
+  }
+  &:hover {
+    outline: 2px solid DarkTurquoise;
+    color: DarkTurquoise;
+  }
 }
