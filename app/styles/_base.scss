@@ -17,10 +17,10 @@ button {
   letter-spacing: 3px;
   margin: 0 10px;
   &:hover {
-    border: 2px solid DarkTurquoise;
-    background: DarkTurquoise;
-    color: white;
+    color: darkturquoise;
     cursor: pointer;
+    border: 2px solid darkturquoise;
+    border-radius: 3px;
   }
 }
 
@@ -38,5 +38,5 @@ input {
 }
 
 a:hover{
-  color: DarkTurquoise
+  color: DarkTurquoise;
 }
