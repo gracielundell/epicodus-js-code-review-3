@@ -1,0 +1,28 @@
+nav {
+  background-image: url("https://static.pexels.com/photos/2159/flight-sky-earth-space.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.homeLink a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    letter-spacing: 7px;
+  }
+}
+
+.title h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: white;
+  align-items: center;
+}

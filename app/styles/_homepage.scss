@@ -1,0 +1,40 @@
+.homePage {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.indexQuestions{
+  padding-left: 10%;
+  a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+
+ul li {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.newQuestion {
+  text-align: center;
+  button {
+    font-size: 20px;
+    padding: 20px 60px;
+    color: white;
+    background-image: url("https://static.pexels.com/photos/2156/sky-earth-space-working.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin: 20px;
+  }
+  &:hover {
+    outline: 2px solid DarkTurquoise;
+    color: DarkTurquoise;
+  }
+}

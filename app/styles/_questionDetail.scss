@@ -1,0 +1,29 @@
+.questionDetail {
+  width: 80%;
+  margin: 0 auto;
+  ul li {
+    width: 100%;
+  }
+  h3, h4 {
+    margin: 0px;
+  }
+}
+
+.answerBtn {
+  text-align: center;
+  button {
+    /*margin-left: 8.5%;*/
+    font-size: 20px;
+    padding: 20px 60px;
+    color: white;
+    background-image: url("https://static.pexels.com/photos/2166/flight-sky-earth-space.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin: 20px;
+  }
+  &:hover {
+    outline: 2px solid DarkTurquoise;
+    color: DarkTurquoise;
+  }
+}
