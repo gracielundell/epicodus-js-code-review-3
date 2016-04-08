@@ -1,9 +1,9 @@
 <!-- what will be displayed as the link on index to full question posts -->
 
 <li>
-    {{question-popularity question}}
     {{#link-to 'question' question.id}}
       {{fullQuestioner}}
     {{/link-to}}
+    {{question-popularity question}}
     {{update-question question=question edit="edit"}}
 </li>
