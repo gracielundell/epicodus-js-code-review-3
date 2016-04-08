@@ -3,7 +3,7 @@
 <li>
     {{question-popularity question}}
     {{#link-to 'question' question.id}}
-      {{question.author}} asks "{{question.title}}"
+      {{fullQuestioner}}
     {{/link-to}}
     {{update-question question=question edit="edit"}}
 </li>
