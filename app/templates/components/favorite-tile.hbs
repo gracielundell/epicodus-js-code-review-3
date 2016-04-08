@@ -1,4 +1,4 @@
-{{#each favoriteAnswers.favoriteList as |item|}}
-
+{{#each favoriteAnswers.items as |item|}}
+  <span class="bold">{{item.question.title}} </span><br>
   {{item.user}} -- {{item.answer}} <br>
 {{/each}}
