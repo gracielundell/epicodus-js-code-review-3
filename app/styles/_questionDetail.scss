@@ -28,3 +28,13 @@
     }
   }
 }
+
+.favorited {
+  color: deeppink;
+  border: 2px solid deeppink;
+  &:hover {
+    color: deeppink;
+    border: 2px solid deeppink;
+    cursor: default;
+  }
+}

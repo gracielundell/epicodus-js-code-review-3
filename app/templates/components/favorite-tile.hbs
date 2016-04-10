@@ -1,4 +1,6 @@
 {{#each favoriteAnswers.items as |item|}}
+<div class="favoriteTile">
   <span class="bold">{{item.question.title}} </span><br>
   {{item.user}} -- {{item.answer}} <br>
+</div>
 {{/each}}

@@ -3,5 +3,9 @@
 <li>
   <h4>{{answer.user}} says:</h4><br>
   {{answer.answer}}
+  {{#if bestAnswer}}
+  <button class="favorited">Favorite!</button>
+  {{else}}
   <button {{action 'addToFavorites' answer}}>Favorite!</button>
+  {{/if}}
 </li>
