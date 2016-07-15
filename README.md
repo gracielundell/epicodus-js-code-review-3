@@ -24,7 +24,7 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-To serve the project, in the terminal run *$ git clone https://github.com/gracielundell/epicodus-js-w2-code-review*. Then, open it with the text editor of your choice. Run *$ npm install* and *$ boser install* to load the required npm dependencies. Once these are installed, run *$ ember serve* to start the server, and view the project in your browser by clicking[here](http://localhost:4200).
+To serve the project, in the terminal run *$ git clone https://github.com/gracielundell/epicodus-js-w2-code-review*. Then, open it with the text editor of your choice. Run *$ npm install* and *$ bower install* to load the required npm dependencies. Once these are installed, run *$ ember serve* to start the server, and view the project in your browser by clicking[here](http://localhost:4200).
 
 ## Technologies
 - Ember.js
