@@ -42,6 +42,10 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.baseUrl = '/question-answer/';
+    ENV.locationType = 'hash';
+    ENV.baseUrl = '/question-answer/';
 
   }
 
